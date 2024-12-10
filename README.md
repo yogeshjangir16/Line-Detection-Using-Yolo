@@ -17,7 +17,7 @@ The project leverages historical Indic manuscripts from the following datasets:
 2. **Sundanese**
 3. **Balinese**
 
-Datasets are stored in the `data/` folder or can be accessed directly from [this link](https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/tree/657fabdf4e64dd8196123761cea3ee0fadb2957d/Dataset).
+Datasets are stored in the `data/` folder or can be accessed directly from [this link](https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/tree/657fabdf4e64dd8196123761cea3ee0fadb2957d/Dataset/data).
 
 
 
@@ -43,5 +43,18 @@ Follow these steps to set up the project:
 1. **Clone the Repository**  
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/username/Line-Detection-Using-YOLO.git
+   git clone https://github.com/yogeshjangir16/Line-Detection-Using-YOLO.git
    cd Line-Detection-Using-YOLO
+
+2. Install Dependencies
+   Install the required Python libraries:
+    ```bash
+    pip install -r requirements.txt
+3. Prepare the Dataset
+- Annotate the dataset using LabelImg.
+- Upload and preprocess the dataset on Roboflow, then download it in the YOLO format.
+
+4. Train the Model
+   Use the [Roboflow](https://roboflow.com) for training:
+
+## **Results**
