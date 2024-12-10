@@ -78,7 +78,6 @@ The performance of line detection using OpenCV is demonstrated below with an eva
 Below are the evaluation results for YOLOv11 and YOLO-NAS models, showing precision and recall across different datasets.
 
 <div align="center">
-  **YOLOv11 Evaluation Metrics**
   <table>
     <tr>
       <th>Dataset</th>
@@ -105,7 +104,6 @@ Below are the evaluation results for YOLOv11 and YOLO-NAS models, showing precis
 </div>
 
 <div align="center">
-  **YOLO-NAS Evaluation Metrics**
   <table>
     <tr>
       <th>Dataset</th>
@@ -135,7 +133,6 @@ Below are the evaluation results for YOLOv11 and YOLO-NAS models, showing precis
 The training graphs illustrate the learning curves of the models on the Khmer dataset.
 
 <div align="center">
-  **Training Graph for YOLOv11 on Khmer Dataset**
   <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/47d9211098d2a840a5c7cb1839b26cc75dd76135/mdData/traingraph_yolov11_Khamer.png" alt="Training Graph YOLOv11 Khmer" width="700"/>
   <p><em>Figure 4: Training Graph of YOLOv11 on Khmer Dataset</em></p>
 </div>
@@ -150,7 +147,6 @@ The training graphs illustrate the learning curves of the models on the Khmer da
 The performance of YOLOv11 and YOLO-NAS was further evaluated using a performance matrix, highlighting the IoU and Hausdorff distance (HD) metrics.
 
 <div align="center">
-  **Performance Metrics for YOLOv11**
   <table>
     <tr>
       <th>Dataset</th>
@@ -181,7 +177,6 @@ The performance of YOLOv11 and YOLO-NAS was further evaluated using a performanc
 </div>
 
 <div align="center">
-  **Performance Metrics for YOLO-NAS**
   <table>
     <tr>
       <th>Dataset</th>
@@ -214,9 +209,15 @@ The performance of YOLOv11 and YOLO-NAS was further evaluated using a performanc
 ## **Conclusion**
 The project demonstrated significant advancements in line detection within historical Indic manuscripts using YOLO models. YOLOv11 and YOLO-NAS were evaluated across multiple datasets, achieving promising results in terms of precision, recall, and overall model performance. 
 
-Key takeaways from the study include:
+Key takeaways:
 - YOLO-NAS outperformed YOLOv11 in terms of accuracy, achieving near-perfect scores on precision and recall for datasets like Balinese and Sundanese.
 - The training graphs indicated that YOLO-NAS had faster convergence and better stability.
 - The performance metrics, including IoU and Hausdorff distances, validated the superior line localization of YOLO-NAS.
 
 Future improvements can be made by incorporating better preprocessing techniques and fine-tuning the models for specific dataset characteristics to further enhance the detection accuracy and robustness.
+
+## **Contact**
+For any questions or further information, please feel free to reach out:
+
+**Email:** [jangir.7@iitj.ac.in](mailto:jangir.7@iitj.ac.in)
+
