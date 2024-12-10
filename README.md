@@ -19,7 +19,12 @@ The project leverages historical Indic manuscripts from the following datasets:
 
 Datasets are stored in the `data/` folder or can be accessed directly from [this link](https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/tree/657fabdf4e64dd8196123761cea3ee0fadb2957d/Dataset/data).
 
+## **Line Detection Architecture with OpenCV**
 
+The following architecture is used for detecting lines using OpenCV.
+
+![Line Detection Architecture](https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/7374d635fb28b54e17acfcdd6ded3a9deba51acd/mdData/architecture_cv.png)  
+*Figure 1: Line Detection Architecture with OpenCV*
 
 ## **Annotation Tools**
 For annotation of the datasets:
