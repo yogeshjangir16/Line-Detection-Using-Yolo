@@ -138,7 +138,6 @@ The training graphs illustrate the learning curves of the models on the Khmer da
 </div>
 
 <div align="center">
-  **Training Graph for YOLO-NAS on Khmer Dataset**
   <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/47d9211098d2a840a5c7cb1839b26cc75dd76135/mdData/traingraph_yolovNAs_Khamer.png" alt="Training Graph YOLO-NAS Khmer" width="700"/>
   <p><em>Figure 5: Training Graph of YOLO-NAS on Khmer Dataset</em></p>
 </div>
