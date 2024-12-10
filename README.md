@@ -64,88 +64,159 @@ Follow these steps to set up the project:
 4. Train the Model
    Use the [Roboflow](https://roboflow.com) for training:
 
-## **Results and Discussion**
+## **Results**
 
 ### **Line Detection Performance with OpenCV**
 The performance of line detection using OpenCV is demonstrated below with an evaluation of clear and noisy text images.
 
 <div align="center">
-  <img src="path/to/output_cv.png" alt="Line Detection using OpenCV" width="700"/>
+  <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/47d9211098d2a840a5c7cb1839b26cc75dd76135/mdData/output_cv.png" alt="Line Detection using OpenCV" width="700"/>
   <p><em>Figure 1: Line Detection on Clear vs Noisy Images using OpenCV</em></p>
 </div>
 
 ### **Evaluation Metrics for YOLO Models**
 Below are the evaluation results for YOLOv11 and YOLO-NAS models, showing precision and recall across different datasets.
 
-**YOLOv11 Evaluation Metrics**
-
-| **Dataset** | **Precision** | **Recall** |
-|-------------|---------------|------------|
-| Khmer       | 0.979         | 0.974      |
-| Sundanese   | 0.986         | 0.995      |
-| Balinese    | 0.957         | 0.916      |
-
 <div align="center">
-  <img src="path/to/eval_yolov11.png" alt="YOLOv11 Evaluation Metrics" width="700"/>
+  **YOLOv11 Evaluation Metrics**
+  <table>
+    <tr>
+      <th>Dataset</th>
+      <th>Precision</th>
+      <th>Recall</th>
+    </tr>
+    <tr>
+      <td>Khmer</td>
+      <td>0.979</td>
+      <td>0.974</td>
+    </tr>
+    <tr>
+      <td>Sundanese</td>
+      <td>0.986</td>
+      <td>0.995</td>
+    </tr>
+    <tr>
+      <td>Balinese</td>
+      <td>0.957</td>
+      <td>0.916</td>
+    </tr>
+  </table>
   <p><em>Figure 2: Evaluation Metrics for YOLOv11</em></p>
 </div>
 
-**YOLO-NAS Evaluation Metrics**
-
-| **Dataset** | **Precision** | **Recall** |
-|-------------|---------------|------------|
-| Khmer       | 0.992         | 0.975      |
-| Sundanese   | 0.958         | 1.0        |
-| Balinese    | 1.0           | 0.952      |
-
 <div align="center">
-  <img src="path/to/eval_yoloNAS.png" alt="YOLO-NAS Evaluation Metrics" width="700"/>
+  **YOLO-NAS Evaluation Metrics**
+  <table>
+    <tr>
+      <th>Dataset</th>
+      <th>Precision</th>
+      <th>Recall</th>
+    </tr>
+    <tr>
+      <td>Khmer</td>
+      <td>0.992</td>
+      <td>0.975</td>
+    </tr>
+    <tr>
+      <td>Sundanese</td>
+      <td>0.958</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>Balinese</td>
+      <td>1.0</td>
+      <td>0.952</td>
+    </tr>
+  </table>
   <p><em>Figure 3: Evaluation Metrics for YOLO-NAS</em></p>
 </div>
 
 ### **Training Graphs of YOLO Models**
 The training graphs illustrate the learning curves of the models on the Khmer dataset.
 
-**Training Graph for YOLOv11 on Khmer Dataset**
-
 <div align="center">
-  <img src="path/to/train_graph_yolov11_khmer.png" alt="Training Graph YOLOv11 Khmer" width="700"/>
+  **Training Graph for YOLOv11 on Khmer Dataset**
+  <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/47d9211098d2a840a5c7cb1839b26cc75dd76135/mdData/traingraph_yolov11_Khamer.png" alt="Training Graph YOLOv11 Khmer" width="700"/>
   <p><em>Figure 4: Training Graph of YOLOv11 on Khmer Dataset</em></p>
 </div>
 
-**Training Graph for YOLO-NAS on Khmer Dataset**
-
 <div align="center">
-  <img src="path/to/train_graph_yoloNAS_khmer.png" alt="Training Graph YOLO-NAS Khmer" width="700"/>
+  **Training Graph for YOLO-NAS on Khmer Dataset**
+  <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/47d9211098d2a840a5c7cb1839b26cc75dd76135/mdData/traingraph_yolovNAs_Khamer.png" alt="Training Graph YOLO-NAS Khmer" width="700"/>
   <p><em>Figure 5: Training Graph of YOLO-NAS on Khmer Dataset</em></p>
 </div>
 
 ### **Performance Metrics Comparison**
 The performance of YOLOv11 and YOLO-NAS was further evaluated using a performance matrix, highlighting the IoU and Hausdorff distance (HD) metrics.
 
-**Performance Metrics for YOLOv11**
-
-| **Dataset** | **IoU**  | **HD**  | **Avg HD** |
-|-------------|----------|---------|------------|
-| Khmer       | 0.96     | 2.67    | 2.35       |
-| Sundanese   | 0.9667   | 2.66    | 2.35       |
-| Balinese    | 0.97     | 2.67    | 2.33       |
-
 <div align="center">
-  <img src="path/to/performance_matrix_yolov11.png" alt="Performance Matrix YOLOv11" width="700"/>
+  **Performance Metrics for YOLOv11**
+  <table>
+    <tr>
+      <th>Dataset</th>
+      <th>IoU</th>
+      <th>HD</th>
+      <th>Avg HD</th>
+    </tr>
+    <tr>
+      <td>Khmer</td>
+      <td>0.96</td>
+      <td>2.67</td>
+      <td>2.35</td>
+    </tr>
+    <tr>
+      <td>Sundanese</td>
+      <td>0.9667</td>
+      <td>2.66</td>
+      <td>2.35</td>
+    </tr>
+    <tr>
+      <td>Balinese</td>
+      <td>0.97</td>
+      <td>2.67</td>
+      <td>2.33</td>
+    </tr>
+  </table>
   <p><em>Figure 6: Performance Matrix of YOLOv11</em></p>
 </div>
 
-**Performance Metrics for YOLO-NAS**
-
-| **Dataset** | **IoU**  | **HD**  | **Avg HD** |
-|-------------|----------|---------|------------|
-| Khmer       | 0.95     | 2.67    | 2.356      |
-| Sundanese   | 0.9667   | 2.66    | 2.35       |
-| Balinese    | 0.98     | 2.65    | 2.34       |
-
 <div align="center">
-  <img src="path/to/performance_matrix_yoloNAS.png" alt="Performance Matrix YOLO-NAS" width="700"/>
+  **Performance Metrics for YOLO-NAS**
+  <table>
+    <tr>
+      <th>Dataset</th>
+      <th>IoU</th>
+      <th>HD</th>
+      <th>Avg HD</th>
+    </tr>
+    <tr>
+      <td>Khmer</td>
+      <td>0.95</td>
+      <td>2.67</td>
+      <td>2.356</td>
+    </tr>
+    <tr>
+      <td>Sundanese</td>
+      <td>0.9667</td>
+      <td>2.66</td>
+      <td>2.35</td>
+    </tr>
+    <tr>
+      <td>Balinese</td>
+      <td>0.98</td>
+      <td>2.65</td>
+      <td>2.34</td>
+    </tr>
+  </table>
   <p><em>Figure 7: Performance Matrix of YOLO-NAS</em></p>
 </div>
 
+## **Conclusion**
+The project demonstrated significant advancements in line detection within historical Indic manuscripts using YOLO models. YOLOv11 and YOLO-NAS were evaluated across multiple datasets, achieving promising results in terms of precision, recall, and overall model performance. 
+
+Key takeaways from the study include:
+- YOLO-NAS outperformed YOLOv11 in terms of accuracy, achieving near-perfect scores on precision and recall for datasets like Balinese and Sundanese.
+- The training graphs indicated that YOLO-NAS had faster convergence and better stability.
+- The performance metrics, including IoU and Hausdorff distances, validated the superior line localization of YOLO-NAS.
+
+Future improvements can be made by incorporating better preprocessing techniques and fine-tuning the models for specific dataset characteristics to further enhance the detection accuracy and robustness.
