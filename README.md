@@ -24,7 +24,7 @@ Datasets are stored in the `data/` folder or can be accessed directly from [this
 The following architecture is used for detecting lines using OpenCV.
 
 <div align="center">
-  <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/7374d635fb28b54e17acfcdd6ded3a9deba51acd/mdData/architecture_cv.png" alt="Line Detection Architecture" width="600"/>
+  <img src="https://github.com/yogeshjangir16/Line-Detection-Using-Yolo/blob/7374d635fb28b54e17acfcdd6ded3a9deba51acd/mdData/architecture_cv.png" alt="Line Detection Architecture" width="500"/>
   <p><em>Figure 1: Line Detection Architecture with OpenCV</em></p>
 </div>
 
